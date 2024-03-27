@@ -270,8 +270,11 @@ export const StyledHeroSection = styled.section`
 `;
 
 export const StyledContainer = styled.section`
-  /* width: 100%;
-  padding-right: 15px;
+  width: 100%;
+  margin: auto;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  /* padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; */
@@ -287,10 +290,10 @@ export const StyledContainer = styled.section`
       max-width: 840px;
     }
   } */
-   @media (min-width: 991px) {
+   /* @media (min-width: 991px) {
   border: 1px solid red;
     max-width: 960px;
-  } 
+  }  */
   // @media (min-width: 1200px) {
   //   max-width: 1303px;
   // }
@@ -301,13 +304,6 @@ export const StyledContainer = styled.section`
     margin: auto;
   } */
 
-  @media (min-width: 1200px) {
-  border: 1px solid yellow;
-  /* max-width: 1203px; */
-    max-width: 1203px;
-    /* margin: auto; */
-    margin: 0 10px 0 90px;
-  }
 
   /* @media (min-width: 1600px) {
     max-width: 1250px;

@@ -1,29 +1,16 @@
-// import Image from "next/image";
-// import styles from "./page.module.css";
-// import { Button } from "antd";
-// import { StyledDiv } from "@/__style/ui-block.style";
-// import { HeadingText } from "@/__style/global.style";
-// import styled from "styled-components";
-// import { PaymentIcon } from "@/component/constants";
 import Hero from "@/component/LandingPage/Hero";
+import SecureSection from "@/component/LandingPage/secure";
 
 export default function Home() {
   return (
-    <div >
+    <div 
+    style={{
+      overflowX:"hidden"
+    }}
+    >
       <Hero />
-      {/* <StyledP>Services</StyledP> */}
-      {/* <StyledG>Why Paydestal</StyledG>
-      <StyledDiv>
-        <HeadingText
-        color="red"
-        fw="500"
-        fsize="30px"
-        >
-          Kazmatics Welcome to Paydestal
-          </HeadingText>
-          <PaymentIcon />
-      </StyledDiv>
-  <Button type="primary">Button</Button> */}
+      <SecureSection />
+
     </div>
   );
 }
