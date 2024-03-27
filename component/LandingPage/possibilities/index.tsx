@@ -82,13 +82,13 @@ opacity: 0px; */}
 export default EndlessPossibilities
 
 const StyledBackground = styled.div`
-/* position: relative; */
+position: relative;
 background-image: url('/assets/images/PossibilityBackground.webp');
   /* background-size: cover; */
   background-size: contain;
   /* background-position: center; */
 
-  &:before {
+  /* &:before {
     content: '';
     position: absolute;
     top: 100%; 
@@ -98,7 +98,7 @@ background-image: url('/assets/images/PossibilityBackground.webp');
     background-image: inherit;
     background-size: cover;
     background-position: center;
-  }
+  } */
 `;
 const StyledMainContainer = styled(StyledHeroSection)`
 max-height: 724.83px;
