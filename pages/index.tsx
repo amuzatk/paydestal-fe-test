@@ -1,4 +1,5 @@
 import Hero from "@/component/LandingPage/Hero";
+import EndlessPossibilities from "@/component/LandingPage/possibilities";
 import SecureSection from "@/component/LandingPage/secure";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     >
       <Hero />
       <SecureSection />
+      <EndlessPossibilities />
 
     </div>
   );
