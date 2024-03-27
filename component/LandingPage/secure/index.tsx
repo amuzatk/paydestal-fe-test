@@ -50,7 +50,7 @@ blurDataURL="/assets/images/SecureMobile.webp"
         <StyledRight
         // grow
         >
-          <StyledParagraph
+          <StyledServices
     //  fw='400'
     //  fsize='21px'
     //  lh='26.46px'
@@ -62,9 +62,9 @@ blurDataURL="/assets/images/SecureMobile.webp"
     mb='-30px'
      >
      Our Services
-     </StyledParagraph>
+     </StyledServices>
 
-<StyledParagraph
+<StyledSubHeading
     //  fw='800'
     //  fsize='44px'
     //  lh='55.44px'
@@ -75,7 +75,7 @@ blurDataURL="/assets/images/SecureMobile.webp"
      color='#FFFFFF'
      >
      Simple. Transparent. Secure 
-     </StyledParagraph>
+     </StyledSubHeading>
 
      <StyledParagraph
      fw='400'
@@ -181,21 +181,6 @@ img{
 // }
 // `;
 
-const StyledParagraph = styled(ParagraphText)`
-@media only screen and (min-width:1367px){
-    font-size: 20px;
-}
-@media only screen and (max-width:991px){
-  text-align: center;
-}
-@media only screen and (max-width:768px){
-  /* display: none; */
-  /* text-align: center;
-font-size: 16px;
-line-height: 24px; */
-}
-`;
-
 const StyledRight = styled(StyledFlexItem)`
 
 /* background-color: lightblue; */
@@ -223,6 +208,8 @@ max-height: 665.25px;
   /* border: 1px solid red; */
   border-top-left-radius: 0;
 border-bottom-left-radius: 0;
+padding: 80px 60px 0px 24px;
+/* padding: 0; */
   /* display: none; */
   /* text-align: center;
 
@@ -237,36 +224,45 @@ width: 100%;
 }
 `;
 
-const StyledGetStartedCont2 = styled.button`
-width: 189px;
-height: 60px;
-padding: 16px 30px;
-column-gap: 11px;
-border-radius: 100px;
-opacity: 0px;
-background-color: #1B442A;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-border: none;
-margin-top: 49.65px;
-@media only screen and (max-width:991px){
-  width: 100%;
-}
+const StyledSubHeading = styled(ParagraphText)`
 @media only screen and (max-width:768px){
-width: 189px;
-height: 56px;
-padding: 14px 30px;
+font-size: 25px;
+font-weight: 800;
+line-height: 31.5px;
+text-align: left;
 }
 `;
 
-const StyledGetStartedBtn = styled(StyledButton)`
-height: 20px;
-opacity: 0px;
-color: #FFFFFF;
+const StyledServices = styled(ParagraphText)`
+@media only screen and (min-width:1367px){
+    font-size: 20px;
+}
+@media only screen and (max-width:991px){
+  text-align: center;
+}
+@media only screen and (max-width:768px){
+font-size: 16px;
+font-weight: 600;
+line-height: 20.16px;
+text-align: left;
+padding-bottom:10px;
+}
+`;
+
+const StyledParagraph = styled(ParagraphText)`
+@media only screen and (min-width:1367px){
+    font-size: 20px;
+}
+@media only screen and (max-width:991px){
+  text-align: center;
+}
+@media only screen and (max-width:768px){
 font-size: 16px;
 font-weight: 400;
 line-height: 20.16px;
 text-align: left;
+
+}
 `;
+
+
