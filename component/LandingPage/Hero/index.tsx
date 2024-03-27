@@ -178,18 +178,24 @@ justify-content: center;
 align-items: center;
 `;
 
-const StyledGetStartedCont2 = styled(ParagraphText)`
+// const StyledGetStartedCont2 = styled(ParagraphText)`
+const StyledGetStartedCont2 = styled.button`
 width: 189px;
 height: 60px;
 padding: 16px 30px;
 column-gap: 11px;
 border-radius: 100px;
 opacity: 0px;
-background-color: #231b44;
+/* background-color: #231b44; */
+background-color: #1B442A;
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+
+border: none;
+
+margin-top: 49.65px;
 `;
 const StyledGetStartedBtn = styled(StyledButton)`
 /* width: 90px; */
