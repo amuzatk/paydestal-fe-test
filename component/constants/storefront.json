@@ -1,0 +1,502 @@
+{
+  "_id": "647259e8f33ba36632055430",
+  "name": "Mecheee",
+  "logo": "https://res.cloudinary.com/dzarxpd91/image/upload/v1685215719/photos/f3hohaw9ifnppo1bk3hb.png",
+  "coverPhoto": "https://res.cloudinary.com/dzarxpd91/image/upload/v1685103349/photos/iywa2f3b121r6sjdlb0i.jpg",
+  "country": "NG",
+  "state": "Lagos",
+  "categories": [
+    {
+      "_id": "64711045c17ea387218a71bb",
+      "code": "fashion",
+      "name": "Fashion",
+      "description": "Clothing, Shoes, Accessories, Jewelry, Handbags, Watches, Sunglasses, Hats, Belts, Scarves",
+      "tags": [
+        {
+          "_id": "64711045c17ea387218a71d2",
+          "code": "clothing",
+          "name": "Clothing",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a71d3",
+          "code": "shoes",
+          "name": "Shoes",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a71d6",
+          "code": "handbags",
+          "name": "Handbags",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a71d4",
+          "code": "accessories",
+          "name": "Accessories",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a71d5",
+          "code": "jewelry",
+          "name": "Jewelry",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a71db",
+          "code": "scarves",
+          "name": "Scarves",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a71d9",
+          "code": "hats",
+          "name": "Hats",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a71d8",
+          "code": "sunglasses",
+          "name": "Sunglasses",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a71d7",
+          "code": "watches",
+          "name": "Watches",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a71da",
+          "code": "belts",
+          "name": "Belts",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "648b25dfa1310306a942c48f",
+          "code": "paintings",
+          "name": "Paintings",
+          "category": "64711045c17ea387218a71ca",
+          "__v": 0
+        },
+        {
+          "_id": "648b2911a1310306a942c60d",
+          "code": "kjnik",
+          "name": "kjnik",
+          "category": "64711045c17ea387218a71bd",
+          "__v": 0
+        },
+        {
+          "_id": "648b2a5fa1310306a942c65b",
+          "code": "tagged",
+          "name": "Tagged",
+          "category": "64711045c17ea387218a71bd",
+          "__v": 0
+        },
+        {
+          "_id": "648b2acfa1310306a942c6a1",
+          "code": "koml",
+          "name": "Koml",
+          "category": "64711045c17ea387218a71bd",
+          "__v": 0
+        },
+        {
+          "_id": "648b2c58a1310306a942c739",
+          "code": "baby_oil",
+          "name": "baby oil",
+          "category": "64711045c17ea387218a71bb",
+          "__v": 0
+        },
+        {
+          "_id": "648b2fcaa1310306a942c7eb",
+          "code": "skipping_rope",
+          "name": "Skipping rope",
+          "category": "64711045c17ea387218a71bd",
+          "__v": 0
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "64711045c17ea387218a71c3",
+      "code": "pet_supplies",
+      "name": "Pet Supplies",
+      "description": "Dog food, Cat litter, Pet toys, Pet grooming, Pet beds, Collars and leashes, Aquarium supplies, Bird cages, Reptile accessories, Small animal habitats",
+      "tags": [
+        {
+          "_id": "64711045c17ea387218a7224",
+          "code": "pet_toys",
+          "name": "Pet toys",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a7223",
+          "code": "cat_litter",
+          "name": "Cat litter",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a7226",
+          "code": "pet_beds",
+          "name": "Pet beds",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a7227",
+          "code": "collars_and_leashes",
+          "name": "Collars and leashes",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a7228",
+          "code": "aquarium_supplies",
+          "name": "Aquarium supplies",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a7229",
+          "code": "bird_cages",
+          "name": "Bird cages",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a7222",
+          "code": "dog_food",
+          "name": "Dog food",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a722b",
+          "code": "small_animal_habitats",
+          "name": "Small animal habitats",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a722a",
+          "code": "reptile_accessories",
+          "name": "Reptile accessories",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "64711045c17ea387218a7225",
+          "code": "pet_grooming",
+          "name": "Pet grooming",
+          "category": "64711045c17ea387218a71c3",
+          "__v": 0
+        },
+        {
+          "_id": "6499c63f95ba9feb17ad8106",
+          "code": "test_tk",
+          "name": "Test TK",
+          "category": "64711045c17ea387218a71c8",
+          "__v": 0
+        }
+      ],
+      "__v": 0
+    }
+  ],
+  "socialUsername": "meche",
+  "socialAccountId": "cosmas02",
+  "socialType": "MANUAL",
+  "takingOrder": true,
+  "active": false,
+  "autoAcceptOrder": false,
+  "verified": false,
+  "deliveryPeriod": "5 Days",
+  "userLikes": [],
+  "sale": {
+    "saleId": "e4575460-d7ac-4ff2-a363-2cefa66ebe05",
+    "soldCount": 15,
+    "totalSold": 223098,
+    "pendingSold": 48178
+  },
+  "rating": { "reviewRatingAvg": 0, "reviewRating": 0, "reviewCount": 0 },
+  "vendor": {
+    "_id": "6471104cc17ea387218a7373",
+    "firstName": "Cosmas",
+    "lastName": "Cosmas",
+    "userHandle": "cosmas02",
+    "isBusinessOwner": true,
+    "wallet": {
+      "withdrawalPayment": 4150,
+      "otherPayment": 0,
+      "allPayment": 0,
+      "allTimeBalance": 282400,
+      "currentBalance": 278250,
+      "pendingBalance": 48178,
+      "bookBalance": 278250,
+      "walletId": "3e29413f-c96c-4def-93bd-111f1828f3dc",
+      "point": 1110
+    },
+    "rating": {
+      "overallReviewRatingAvg": 0,
+      "overallReviewRating": 0,
+      "overallReviewCount": 0
+    },
+    "type": "USER",
+    "username": "cosmasuser@getvendorstack.com",
+    "emailVerification": false,
+    "businesses": ["647259e8f33ba36632055430"],
+    "businessFollowings": [
+      "6478e3ac5b50cc4cb6ea596b",
+      "6471104cc17ea387218a737c",
+      "6471104cc17ea387218a737b",
+      "6471a3b780e3a8b4afef1a00",
+      "6471104cc17ea387218a737e"
+    ],
+    "subscription": "64711045c17ea387218a71b7",
+    "subscriptionExpiryDate": null,
+    "isSubscriptionActive": true,
+    "addresses": [
+      {
+        "addressId": "cab1c42c-8673-4b94-b5cb-c1b975a99e2e",
+        "phoneNumber": "+2347033741317",
+        "name": "Cosmas Ezejiofor",
+        "streetName": "House no 10",
+        "description": "",
+        "busStop": "",
+        "country": "NG",
+        "state": "Gombe",
+        "lga": "FUNAKAYE",
+        "_id": "647cf3ebd148718a5bd544c5"
+      },
+      {
+        "addressId": "312b77a8-3594-46cf-9764-373fdac26597",
+        "phoneNumber": "+2347055543243",
+        "name": "cosmas meche",
+        "streetName": "10 house number",
+        "description": "",
+        "busStop": "here",
+        "country": "NG",
+        "state": "Lagos",
+        "lga": "BADAGRY",
+        "_id": "647cf4e0d148718a5bd544d6"
+      },
+      {
+        "addressId": "6c345a1a-36d8-47af-8f77-d93c485be2e2",
+        "phoneNumber": "+2346464534",
+        "name": "dsjhdes",
+        "streetName": "sxhzvbhjfedc",
+        "description": "",
+        "busStop": "",
+        "country": "NG",
+        "state": "Kwara",
+        "lga": "EKITI",
+        "_id": "647cf5b6d148718a5bd54556"
+      },
+      {
+        "addressId": "1b8d8037-8682-4565-90d4-5b43b9d43bf4",
+        "phoneNumber": "+2347033741317",
+        "name": "Cosmas Ezejiofor",
+        "streetName": "10 Onipe Street ",
+        "description": "",
+        "busStop": "my house",
+        "country": "NG",
+        "state": "Lagos",
+        "lga": "BADAGRY",
+        "_id": "647cf66ad148718a5bd545a2"
+      },
+      {
+        "addressId": "61a61723-7879-462d-90a4-172379e9cfe4",
+        "phoneNumber": "+2347033741317",
+        "name": "Ezejiofor Cosmas Amaechi",
+        "streetName": "14 onipe",
+        "country": "NG",
+        "state": "Lagos",
+        "lga": "SHOMOLU",
+        "_id": "64fb3d819862f521e85d401c"
+      },
+      {
+        "addressId": "b197e69f-c71b-41ce-b0e9-be6041376d79",
+        "phoneNumber": "+2347033741317",
+        "name": "Ezejiofor Cosmas Amaechi",
+        "streetName": "14 onipe",
+        "country": "NG",
+        "state": "Lagos",
+        "lga": "SHOMOLU",
+        "_id": "64fb43bd9862f521e85d40f2"
+      },
+      {
+        "addressId": "ff2ac794-41bb-4aac-a561-bada454f8d54",
+        "phoneNumber": "+2347664664464",
+        "name": "444444 4444",
+        "streetName": "44444",
+        "country": "NG",
+        "state": "Bauchi",
+        "lga": "ALKALERI",
+        "_id": "64fb48b49862f521e85d4193"
+      },
+      {
+        "addressId": "a4d4f130-9ac9-49c7-940a-70e736b9493c",
+        "phoneNumber": "+2347033741317",
+        "name": "Cosmas Ezejiofor",
+        "streetName": "new address ",
+        "country": "NG",
+        "state": "Lagos",
+        "lga": "BADAGRY",
+        "_id": "65192ba07df8ca12106496ff"
+      }
+    ],
+    "__v": 0,
+    "createdAt": "2023-05-26T20:02:20.293Z",
+    "updatedAt": "2023-11-06T19:04:00.361Z",
+    "currentAddress": {
+      "country": "NG",
+      "name": "Cosmas Ezejiofor",
+      "phoneNumber": "+2347033741317",
+      "streetName": "new address ",
+      "state": "Lagos",
+      "lga": "BADAGRY",
+      "addressId": "a4d4f130-9ac9-49c7-940a-70e736b9493c"
+    },
+    "status": "ACTIVE",
+    "subscriptionUpdateAt": "2023-11-06T19:04:00.360Z",
+    "roles": ["OWNER"]
+  },
+  "customers": ["6471104cc17ea387218a7370", "6471104cc17ea387218a736e"],
+  "customerFollowers": ["6471104cc17ea387218a7376"],
+  "createdAt": "2023-05-27T19:28:40.055Z",
+  "updatedAt": "2023-11-07T19:20:52.128Z",
+  "__v": 0,
+  "cacCertificatePhoto": "https://res.cloudinary.com/dzarxpd91/image/upload/v1688221986/photos/vf9fwara7nbkrfvlae5o.jpg",
+  "description": "Here we go",
+  "orderNoticeInfo": "",
+  "phone": "09092887363",
+  "website": "https://www.staging.getvendorstack.com/@meche",
+  "address": "",
+  "allowOrderReturn": false,
+  "postalCode": "",
+  "socialAccountUserId": "",
+  "deliveryFees": {
+    "NG": {
+      "Lagos": 2000,
+      "Lagos_places": {
+        "Apapa": 2000,
+        "Badagry": 2000,
+        "Ebute Ikorodu": 2000,
+        "Ejirin": 2000,
+        "Epe": 2000,
+        "Ikeja": 2000,
+        "Makoko": 2000,
+        "Alimosho": 2000,
+        "Ajeromi-Ifelodun": 2000,
+        "Kosofe": 2000,
+        "Mushin": 2000,
+        "Oshodi-Isolo": 2000,
+        "Ojo": 2000,
+        "Ikorodu": 2000,
+        "Surulere": 2000,
+        "Agege": 2000,
+        "Ifako-Ijaiye": 2000,
+        "Somolu": 2000,
+        "Amuwo-Odofin": 2000,
+        "Lagos Mainland": 3000,
+        "Eti-Osa": 2000,
+        "Lagos Island": 2000,
+        "Ibeju-Lekki": 2000
+      },
+      "Abuja": 1500,
+      "Abuja_places": {
+        "Abuja": 1500,
+        "Kuje": 1500,
+        "Kwali": 1500,
+        "Madala": 1500,
+        "Abaji": 1500,
+        "Bwari": 1500,
+        "Gwagwalada": 1500
+      },
+      "Anambra": 1000,
+      "Anambra_places": {
+        "Agulu": 1003,
+        "Atani": 102,
+        "Awka": 1000,
+        "Enugu-Ukwu": 1000,
+        "Igbo-Ukwu": 1000,
+        "Ihiala": 1000,
+        "Nkpor": 1000,
+        "Nnewi": 1000,
+        "Onitsha": 1000,
+        "Ozubulu": 1000,
+        "Uga": 1000,
+        "Uruobo-Okija": 1000
+      },
+      "Abia": 77777,
+      "Abia_places": {
+        "Aba": 77777,
+        "Amaigbo": 77777,
+        "Arochukwu": 77777,
+        "Bende": 77777,
+        "Ohafia-Ifigh": 77777,
+        "Umuahia": 77777
+      },
+      "Kano": 4000,
+      "Kano_places": { "Dan Gora": 4000, "Gaya": 4000, "Kano": 4000 },
+      "Ogun": 3000,
+      "Ogun_places": {
+        "Abeokuta": 1500,
+        "Ado Odo": 3000,
+        "Idi Iroko": 3000,
+        "Ifo": 3000,
+        "Ijebu-Ife": 3000,
+        "Ijebu-Igbo": 3000,
+        "Ijebu-Ode": 3000,
+        "Ilaro": 3000,
+        "Imeko": 3000,
+        "Iperu": 3000,
+        "Isara": 3000,
+        "Owode": 3000
+      },
+      "Bauchi": 4000,
+      "Bauchi_places": {
+        "Azare": 4000,
+        "Bauchi": 4000,
+        "Boi": 4000,
+        "Bununu": 4000,
+        "Darazo": 4000,
+        "Dass": 4000,
+        "Dindima": 4000,
+        "Disina": 4000,
+        "Gabarin": 4000,
+        "Gwaram": 4000,
+        "Kari": 4000,
+        "Lame": 4000,
+        "Lere": 4000,
+        "Madara": 4000,
+        "Misau": 4000,
+        "Sade": 4000,
+        "Yamrat": 4000,
+        "Yanda Bayo": 4000,
+        "Yuli": 4000,
+        "Zadawa": 4000,
+        "Zalanga": 4000
+      }
+    }
+  },
+  "hasProduct": true,
+  "storeLastMonthLookupCount": 0,
+  "storeLastWeekLookupCount": 0,
+  "storeLookupCount": 1270,
+  "productVariantTypes": ["Size", "Color", "Portion", "Portions", "Year"],
+  "isAllowOrderReceiveStatus": false,
+  "storeMonthResidueCount": 0,
+  "storeWeeklyResidueCount": 0
+}

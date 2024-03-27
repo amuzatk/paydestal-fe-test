@@ -1,0 +1,1148 @@
+[
+  {
+    "_id": "64711045c17ea387218a71c2",
+    "code": "books_and_media",
+    "name": "Books and Media",
+    "description": "Fiction, Non-fiction, Biographies, Textbooks, Audiobooks, E-books, Magazines, Music, Movies, TV Shows",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7218",
+        "code": "fiction",
+        "name": "Fiction"
+      },
+      {
+        "_id": "64711045c17ea387218a7219",
+        "code": "non_fiction",
+        "name": "Non-fiction"
+      },
+      {
+        "_id": "64711045c17ea387218a721a",
+        "code": "biographies",
+        "name": "Biographies"
+      },
+      {
+        "_id": "64711045c17ea387218a721b",
+        "code": "textbooks",
+        "name": "Textbooks"
+      },
+      {
+        "_id": "64711045c17ea387218a721c",
+        "code": "audiobooks",
+        "name": "Audiobooks"
+      },
+      {
+        "_id": "64711045c17ea387218a721d",
+        "code": "e_books",
+        "name": "E-books"
+      },
+      {
+        "_id": "64711045c17ea387218a721e",
+        "code": "magazines",
+        "name": "Magazines"
+      },
+      { "_id": "64711045c17ea387218a721f", "code": "music", "name": "Music" },
+      { "_id": "64711045c17ea387218a7220", "code": "movies", "name": "Movies" },
+      {
+        "_id": "64711045c17ea387218a7221",
+        "code": "tv_shows",
+        "name": "TV Shows"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71c1",
+    "code": "toys_and_games",
+    "name": "Toys and Games",
+    "description": "Board Games, Action Figures, Dolls, Puzzles, Educational Toys, Remote Control Toys, Building Sets, Outdoor Play, Video Games, Collectibles",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a720e",
+        "code": "board_games",
+        "name": "Board Games"
+      },
+      {
+        "_id": "64711045c17ea387218a720f",
+        "code": "action_figures",
+        "name": "Action Figures"
+      },
+      { "_id": "64711045c17ea387218a7210", "code": "dolls", "name": "Dolls" },
+      {
+        "_id": "64711045c17ea387218a7211",
+        "code": "puzzles",
+        "name": "Puzzles"
+      },
+      {
+        "_id": "64711045c17ea387218a7212",
+        "code": "educational_toys",
+        "name": "Educational Toys"
+      },
+      {
+        "_id": "64711045c17ea387218a7213",
+        "code": "remote_control_toys",
+        "name": "Remote Control Toys"
+      },
+      {
+        "_id": "64711045c17ea387218a7214",
+        "code": "building_sets",
+        "name": "Building Sets"
+      },
+      {
+        "_id": "64711045c17ea387218a7215",
+        "code": "outdoor_play",
+        "name": "Outdoor Play"
+      },
+      {
+        "_id": "64711045c17ea387218a7216",
+        "code": "video_games",
+        "name": "Video Games"
+      },
+      {
+        "_id": "64711045c17ea387218a7217",
+        "code": "collectibles",
+        "name": "Collectibles"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71c9",
+    "code": "jewelry_and_accessories",
+    "name": "Jewelry and Accessories",
+    "description": "Rings, Necklaces, Bracelets, Earrings, Watches, Sunglasses, Scarves, Hats, Handbags, Wallets",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a725f",
+        "code": "necklaces",
+        "name": "Necklaces"
+      },
+      {
+        "_id": "64711045c17ea387218a7261",
+        "code": "earrings",
+        "name": "Earrings"
+      },
+      {
+        "_id": "64711045c17ea387218a7262",
+        "code": "watches",
+        "name": "Watches"
+      },
+      {
+        "_id": "64711045c17ea387218a7263",
+        "code": "sunglasses",
+        "name": "Sunglasses"
+      },
+      {
+        "_id": "64711045c17ea387218a7264",
+        "code": "scarves",
+        "name": "Scarves"
+      },
+      {
+        "_id": "64711045c17ea387218a7266",
+        "code": "handbags",
+        "name": "Handbags"
+      },
+      { "_id": "64711045c17ea387218a7265", "code": "hats", "name": "Hats" },
+      {
+        "_id": "64711045c17ea387218a7267",
+        "code": "wallets",
+        "name": "Wallets"
+      },
+      {
+        "_id": "64711045c17ea387218a7260",
+        "code": "bracelets",
+        "name": "Bracelets"
+      },
+      { "_id": "64711045c17ea387218a725e", "code": "rings", "name": "Rings" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71ca",
+    "code": "arts_and_crafts",
+    "name": "Arts and Crafts",
+    "description": "Painting Supplies, Drawing Supplies, Sculpting Supplies, Beading and Jewelry-Making Supplies, Knitting and Crocheting Supplies, Scrapbooking Supplies, Sewing Supplies, Craft Kits, Paper Crafts, Art Prints",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7268",
+        "code": "painting_supplies",
+        "name": "Painting Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a726a",
+        "code": "sculpting_supplies",
+        "name": "Sculpting Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a7269",
+        "code": "drawing_supplies",
+        "name": "Drawing Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a726b",
+        "code": "beading_and_jewelry_making_supplies",
+        "name": "Beading and Jewelry-Making Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a726c",
+        "code": "knitting_and_crocheting_supplies",
+        "name": "Knitting and Crocheting Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a726d",
+        "code": "scrapbooking_supplies",
+        "name": "Scrapbooking Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a726e",
+        "code": "sewing_supplies",
+        "name": "Sewing Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a726f",
+        "code": "craft_kits",
+        "name": "Craft Kits"
+      },
+      {
+        "_id": "64711045c17ea387218a7270",
+        "code": "paper_crafts",
+        "name": "Paper Crafts"
+      },
+      {
+        "_id": "64711045c17ea387218a7271",
+        "code": "art_prints",
+        "name": "Art Prints"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71c4",
+    "code": "sports_and_outdoors",
+    "name": "Sports and Outdoors",
+    "description": "Running gear, Camping equipment, Biking accessories, Hiking boots, Fishing gear, Yoga mats, Water sports equipment, Golf clubs, Fitness trackers, Hunting gear",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a722c",
+        "code": "running_gear",
+        "name": "Running gear"
+      },
+      {
+        "_id": "64711045c17ea387218a722d",
+        "code": "camping_equipment",
+        "name": "Camping equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a722e",
+        "code": "biking_accessories",
+        "name": "Biking accessories"
+      },
+      {
+        "_id": "64711045c17ea387218a722f",
+        "code": "hiking_boots",
+        "name": "Hiking boots"
+      },
+      {
+        "_id": "64711045c17ea387218a7230",
+        "code": "fishing_gear",
+        "name": "Fishing gear"
+      },
+      {
+        "_id": "64711045c17ea387218a7232",
+        "code": "water_sports_equipment",
+        "name": "Water sports equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a7231",
+        "code": "yoga_mats",
+        "name": "Yoga mats"
+      },
+      {
+        "_id": "64711045c17ea387218a7233",
+        "code": "golf_clubs",
+        "name": "Golf clubs"
+      },
+      {
+        "_id": "64711045c17ea387218a7234",
+        "code": "fitness_trackers",
+        "name": "Fitness trackers"
+      },
+      {
+        "_id": "64711045c17ea387218a7235",
+        "code": "hunting_gear",
+        "name": "Hunting gear"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71ce",
+    "code": "industrial_and_scientific",
+    "name": "Industrial and Scientific",
+    "description": "Lab Equipment, Safety Equipment, Material Handling, Welding and Soldering Equipment, Test and Measurement Equipment, HVAC Equipment, Filtration Equipment, Industrial Pumps, Electrical Equipment, Robotics",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7290",
+        "code": "lab_equipment",
+        "name": "Lab Equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a7291",
+        "code": "safety_equipment",
+        "name": "Safety Equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a7292",
+        "code": "material_handling",
+        "name": "Material Handling"
+      },
+      {
+        "_id": "64711045c17ea387218a7294",
+        "code": "test_and_measurement_equipment",
+        "name": "Test and Measurement Equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a7293",
+        "code": "welding_and_soldering_equipment",
+        "name": "Welding and Soldering Equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a7299",
+        "code": "robotics",
+        "name": "Robotics"
+      },
+      {
+        "_id": "64711045c17ea387218a7296",
+        "code": "filtration_equipment",
+        "name": "Filtration Equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a7297",
+        "code": "industrial_pumps",
+        "name": "Industrial Pumps"
+      },
+      {
+        "_id": "64711045c17ea387218a7298",
+        "code": "electrical_equipment",
+        "name": "Electrical Equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a7295",
+        "code": "hvac_equipment",
+        "name": "HVAC Equipment"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71cd",
+    "code": "health_and_personal_care",
+    "name": "Health and Personal Care",
+    "description": "Vitamins and Supplements, Oral Care, Feminine Hygiene, First Aid Supplies, Mobility Aids, Sexual Wellness, Health Monitors, Foot Care, Incontinence Products, Pain Relief",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7286",
+        "code": "vitamins_and_supplements",
+        "name": "Vitamins and Supplements"
+      },
+      {
+        "_id": "64711045c17ea387218a7287",
+        "code": "oral_care",
+        "name": "Oral Care"
+      },
+      {
+        "_id": "64711045c17ea387218a7288",
+        "code": "feminine_hygiene",
+        "name": "Feminine Hygiene"
+      },
+      {
+        "_id": "64711045c17ea387218a7289",
+        "code": "first_aid_supplies",
+        "name": "First Aid Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a728a",
+        "code": "mobility_aids",
+        "name": "Mobility Aids"
+      },
+      {
+        "_id": "64711045c17ea387218a728b",
+        "code": "sexual_wellness",
+        "name": "Sexual Wellness"
+      },
+      {
+        "_id": "64711045c17ea387218a728c",
+        "code": "health_monitors",
+        "name": "Health Monitors"
+      },
+      {
+        "_id": "64711045c17ea387218a728e",
+        "code": "incontinence_products",
+        "name": "Incontinence Products"
+      },
+      {
+        "_id": "64711045c17ea387218a728d",
+        "code": "foot_care",
+        "name": "Foot Care"
+      },
+      {
+        "_id": "64711045c17ea387218a728f",
+        "code": "pain_relief",
+        "name": "Pain Relief"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71c7",
+    "code": "home_improvement",
+    "name": "Home Improvement",
+    "description": "Power Tools, Hand Tools, Building Materials, Home Renovation, Plumbing Supplies, Electrical Supplies, Paint and Painting Supplies, Hardware, Heating and Cooling, Flooring",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a724a",
+        "code": "power_tools",
+        "name": "Power Tools"
+      },
+      {
+        "_id": "64711045c17ea387218a724c",
+        "code": "building_materials",
+        "name": "Building Materials"
+      },
+      {
+        "_id": "64711045c17ea387218a724b",
+        "code": "hand_tools",
+        "name": "Hand Tools"
+      },
+      {
+        "_id": "64711045c17ea387218a724d",
+        "code": "home_renovation",
+        "name": "Home Renovation"
+      },
+      {
+        "_id": "64711045c17ea387218a724f",
+        "code": "electrical_supplies",
+        "name": "Electrical Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a7250",
+        "code": "paint_and_painting_supplies",
+        "name": "Paint and Painting Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a7251",
+        "code": "hardware",
+        "name": "Hardware"
+      },
+      {
+        "_id": "64711045c17ea387218a7252",
+        "code": "heating_and_cooling",
+        "name": "Heating and Cooling"
+      },
+      {
+        "_id": "64711045c17ea387218a7253",
+        "code": "flooring",
+        "name": "Flooring"
+      },
+      {
+        "_id": "64711045c17ea387218a724e",
+        "code": "plumbing_supplies",
+        "name": "Plumbing Supplies"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71bf",
+    "code": "food_and_beverage",
+    "name": "Food and Beverage",
+    "description": "Snacks, Beverages, Groceries, Meal Kits, Gourmet Foods, Wine, Beer, Coffee, Tea, Cooking Ingredients",
+    "tags": [
+      { "_id": "64711045c17ea387218a71fb", "code": "snacks", "name": "Snacks" },
+      {
+        "_id": "64711045c17ea387218a71fc",
+        "code": "beverages",
+        "name": "Beverages"
+      },
+      {
+        "_id": "64711045c17ea387218a71fd",
+        "code": "groceries",
+        "name": "Groceries"
+      },
+      {
+        "_id": "64711045c17ea387218a71fe",
+        "code": "meal_kits",
+        "name": "Meal Kits"
+      },
+      {
+        "_id": "64711045c17ea387218a71ff",
+        "code": "gourmet_foods",
+        "name": "Gourmet Foods"
+      },
+      { "_id": "64711045c17ea387218a7200", "code": "wine", "name": "Wine" },
+      { "_id": "64711045c17ea387218a7201", "code": "beer", "name": "Beer" },
+      { "_id": "64711045c17ea387218a7202", "code": "coffee", "name": "Coffee" },
+      { "_id": "64711045c17ea387218a7203", "code": "tea", "name": "Tea" },
+      {
+        "_id": "64711045c17ea387218a7204",
+        "code": "cooking_ingredients",
+        "name": "Cooking Ingredients"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71cb",
+    "code": "musical_instruments",
+    "name": "Musical Instruments",
+    "description": "Guitars, Drums, Keyboards, Woodwind Instruments, Brass Instruments, String Instruments, Percussion Instruments, DJ Equipment, Karaoke Machines, Music Accessories",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7272",
+        "code": "guitars",
+        "name": "Guitars"
+      },
+      { "_id": "64711045c17ea387218a7273", "code": "drums", "name": "Drums" },
+      {
+        "_id": "64711045c17ea387218a7274",
+        "code": "keyboards",
+        "name": "Keyboards"
+      },
+      {
+        "_id": "64711045c17ea387218a7275",
+        "code": "woodwind_instruments",
+        "name": "Woodwind Instruments"
+      },
+      {
+        "_id": "64711045c17ea387218a7276",
+        "code": "brass_instruments",
+        "name": "Brass Instruments"
+      },
+      {
+        "_id": "64711045c17ea387218a7277",
+        "code": "string_instruments",
+        "name": "String Instruments"
+      },
+      {
+        "_id": "64711045c17ea387218a7278",
+        "code": "percussion_instruments",
+        "name": "Percussion Instruments"
+      },
+      {
+        "_id": "64711045c17ea387218a7279",
+        "code": "dj_equipment",
+        "name": "DJ Equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a727a",
+        "code": "karaoke_machines",
+        "name": "Karaoke Machines"
+      },
+      {
+        "_id": "64711045c17ea387218a727b",
+        "code": "music_accessories",
+        "name": "Music Accessories"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71bc",
+    "code": "electronics_and_accessories",
+    "name": "Electronics and Accessories",
+    "description": "Smartphones, Laptops, TVs, Accessories, Cameras, Gaming Consoles, Headphones, Speakers, Tablets, Drones",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a71dc",
+        "code": "smartphones",
+        "name": "Smartphones"
+      },
+      {
+        "_id": "64711045c17ea387218a71dd",
+        "code": "laptops",
+        "name": "Laptops"
+      },
+      { "_id": "64711045c17ea387218a71de", "code": "tvs", "name": "TVs" },
+      {
+        "_id": "64711045c17ea387218a71df",
+        "code": "accessories",
+        "name": "Accessories"
+      },
+      {
+        "_id": "64711045c17ea387218a71e0",
+        "code": "cameras",
+        "name": "Cameras"
+      },
+      {
+        "_id": "64711045c17ea387218a71e1",
+        "code": "gaming_consoles",
+        "name": "Gaming Consoles"
+      },
+      {
+        "_id": "64711045c17ea387218a71e2",
+        "code": "headphones",
+        "name": "Headphones"
+      },
+      {
+        "_id": "64711045c17ea387218a71e3",
+        "code": "speakers",
+        "name": "Speakers"
+      },
+      {
+        "_id": "64711045c17ea387218a71e4",
+        "code": "tablets",
+        "name": "Tablets"
+      },
+      { "_id": "64711045c17ea387218a71e5", "code": "drones", "name": "Drones" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71c8",
+    "code": "baby_and_toddler",
+    "name": "Baby and Toddler",
+    "description": "Diapers and Wipes, Baby Food and Formula, Baby Clothing, Baby Toys, Baby Gear, Nursery Furniture, Strollers and Car Seats, Toddler Clothing, Toddler Toys, Baby Health and Safety",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7255",
+        "code": "baby_food_and_formula",
+        "name": "Baby Food and Formula"
+      },
+      {
+        "_id": "64711045c17ea387218a7258",
+        "code": "baby_gear",
+        "name": "Baby Gear"
+      },
+      {
+        "_id": "64711045c17ea387218a7257",
+        "code": "baby_toys",
+        "name": "Baby Toys"
+      },
+      {
+        "_id": "64711045c17ea387218a7254",
+        "code": "diapers_and_wipes",
+        "name": "Diapers and Wipes"
+      },
+      {
+        "_id": "64711045c17ea387218a7256",
+        "code": "baby_clothing",
+        "name": "Baby Clothing"
+      },
+      {
+        "_id": "64711045c17ea387218a7259",
+        "code": "nursery_furniture",
+        "name": "Nursery Furniture"
+      },
+      {
+        "_id": "64711045c17ea387218a725a",
+        "code": "strollers_and_car_seats",
+        "name": "Strollers and Car Seats"
+      },
+      {
+        "_id": "64711045c17ea387218a725b",
+        "code": "toddler_clothing",
+        "name": "Toddler Clothing"
+      },
+      {
+        "_id": "64711045c17ea387218a725c",
+        "code": "toddler_toys",
+        "name": "Toddler Toys"
+      },
+      {
+        "_id": "64711045c17ea387218a725d",
+        "code": "baby_health_and_safety",
+        "name": "Baby Health and Safety"
+      },
+      {
+        "_id": "6499c63f95ba9feb17ad8106",
+        "code": "test_tk",
+        "name": "Test TK"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71bb",
+    "code": "fashion",
+    "name": "Fashion",
+    "description": "Clothing, Shoes, Accessories, Jewelry, Handbags, Watches, Sunglasses, Hats, Belts, Scarves",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a71d2",
+        "code": "clothing",
+        "name": "Clothing"
+      },
+      { "_id": "64711045c17ea387218a71d3", "code": "shoes", "name": "Shoes" },
+      {
+        "_id": "64711045c17ea387218a71d6",
+        "code": "handbags",
+        "name": "Handbags"
+      },
+      {
+        "_id": "64711045c17ea387218a71d4",
+        "code": "accessories",
+        "name": "Accessories"
+      },
+      {
+        "_id": "64711045c17ea387218a71d5",
+        "code": "jewelry",
+        "name": "Jewelry"
+      },
+      {
+        "_id": "64711045c17ea387218a71db",
+        "code": "scarves",
+        "name": "Scarves"
+      },
+      { "_id": "64711045c17ea387218a71d9", "code": "hats", "name": "Hats" },
+      {
+        "_id": "64711045c17ea387218a71d8",
+        "code": "sunglasses",
+        "name": "Sunglasses"
+      },
+      {
+        "_id": "64711045c17ea387218a71d7",
+        "code": "watches",
+        "name": "Watches"
+      },
+      { "_id": "64711045c17ea387218a71da", "code": "belts", "name": "Belts" },
+      {
+        "_id": "648b25dfa1310306a942c48f",
+        "code": "paintings",
+        "name": "Paintings"
+      },
+      { "_id": "648b2911a1310306a942c60d", "code": "kjnik", "name": "kjnik" },
+      { "_id": "648b2a5fa1310306a942c65b", "code": "tagged", "name": "Tagged" },
+      { "_id": "648b2acfa1310306a942c6a1", "code": "koml", "name": "Koml" },
+      {
+        "_id": "648b2c58a1310306a942c739",
+        "code": "baby_oil",
+        "name": "baby oil"
+      },
+      {
+        "_id": "648b2fcaa1310306a942c7eb",
+        "code": "skipping_rope",
+        "name": "Skipping rope"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71c6",
+    "code": "office_supplies",
+    "name": "Office Supplies",
+    "description": "Pens and Pencils, Paper and Notebooks, Desk Accessories, Filing and Storage, Printers and Scanners, Office Furniture, Presentation Supplies, Writing Supplies, Office Electronics, Label Makers",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7240",
+        "code": "pens_and_pencils",
+        "name": "Pens and Pencils"
+      },
+      {
+        "_id": "64711045c17ea387218a7241",
+        "code": "paper_and_notebooks",
+        "name": "Paper and Notebooks"
+      },
+      {
+        "_id": "64711045c17ea387218a7242",
+        "code": "desk_accessories",
+        "name": "Desk Accessories"
+      },
+      {
+        "_id": "64711045c17ea387218a7243",
+        "code": "filing_and_storage",
+        "name": "Filing and Storage"
+      },
+      {
+        "_id": "64711045c17ea387218a7244",
+        "code": "printers_and_scanners",
+        "name": "Printers and Scanners"
+      },
+      {
+        "_id": "64711045c17ea387218a7245",
+        "code": "office_furniture",
+        "name": "Office Furniture"
+      },
+      {
+        "_id": "64711045c17ea387218a7246",
+        "code": "presentation_supplies",
+        "name": "Presentation Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a7247",
+        "code": "writing_supplies",
+        "name": "Writing Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a7248",
+        "code": "office_electronics",
+        "name": "Office Electronics"
+      },
+      {
+        "_id": "64711045c17ea387218a7249",
+        "code": "label_makers",
+        "name": "Label Makers"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71c3",
+    "code": "pet_supplies",
+    "name": "Pet Supplies",
+    "description": "Dog food, Cat litter, Pet toys, Pet grooming, Pet beds, Collars and leashes, Aquarium supplies, Bird cages, Reptile accessories, Small animal habitats",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7224",
+        "code": "pet_toys",
+        "name": "Pet toys"
+      },
+      {
+        "_id": "64711045c17ea387218a7223",
+        "code": "cat_litter",
+        "name": "Cat litter"
+      },
+      {
+        "_id": "64711045c17ea387218a7226",
+        "code": "pet_beds",
+        "name": "Pet beds"
+      },
+      {
+        "_id": "64711045c17ea387218a7227",
+        "code": "collars_and_leashes",
+        "name": "Collars and leashes"
+      },
+      {
+        "_id": "64711045c17ea387218a7228",
+        "code": "aquarium_supplies",
+        "name": "Aquarium supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a7229",
+        "code": "bird_cages",
+        "name": "Bird cages"
+      },
+      {
+        "_id": "64711045c17ea387218a7222",
+        "code": "dog_food",
+        "name": "Dog food"
+      },
+      {
+        "_id": "64711045c17ea387218a722b",
+        "code": "small_animal_habitats",
+        "name": "Small animal habitats"
+      },
+      {
+        "_id": "64711045c17ea387218a722a",
+        "code": "reptile_accessories",
+        "name": "Reptile accessories"
+      },
+      {
+        "_id": "64711045c17ea387218a7225",
+        "code": "pet_grooming",
+        "name": "Pet grooming"
+      },
+      {
+        "_id": "6499c63f95ba9feb17ad8106",
+        "code": "test_tk",
+        "name": "Test TK"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71c5",
+    "code": "automotive",
+    "name": "Automotive",
+    "description": "Car Parts, Tires, Car Accessories, Car Electronics, Car Cleaning Supplies, Motorcycle Parts, ATV Parts, Car Batteries, Oil and Fluids, Car Care and Maintenance",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7236",
+        "code": "car_parts",
+        "name": "Car Parts"
+      },
+      { "_id": "64711045c17ea387218a7237", "code": "tires", "name": "Tires" },
+      {
+        "_id": "64711045c17ea387218a7239",
+        "code": "car_electronics",
+        "name": "Car Electronics"
+      },
+      {
+        "_id": "64711045c17ea387218a7238",
+        "code": "car_accessories",
+        "name": "Car Accessories"
+      },
+      {
+        "_id": "64711045c17ea387218a723a",
+        "code": "car_cleaning_supplies",
+        "name": "Car Cleaning Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a723b",
+        "code": "motorcycle_parts",
+        "name": "Motorcycle Parts"
+      },
+      {
+        "_id": "64711045c17ea387218a723c",
+        "code": "atv_parts",
+        "name": "ATV Parts"
+      },
+      {
+        "_id": "64711045c17ea387218a723e",
+        "code": "oil_and_fluids",
+        "name": "Oil and Fluids"
+      },
+      {
+        "_id": "64711045c17ea387218a723d",
+        "code": "car_batteries",
+        "name": "Car Batteries"
+      },
+      {
+        "_id": "64711045c17ea387218a723f",
+        "code": "car_care_and_maintenance",
+        "name": "Car Care and Maintenance"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71cc",
+    "code": "beauty_tools_and_accessories",
+    "name": "Beauty Tools and Accessories",
+    "description": "Makeup Brushes, Hair Styling Tools, Nail Care Tools, Facial Cleansing Tools, Eyelash Curlers, Bath and Body Tools, Hair Removal Tools, Beauty Mirrors, Makeup Bags and Cases, Cosmetic Organizers",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a727c",
+        "code": "makeup_brushes",
+        "name": "Makeup Brushes"
+      },
+      {
+        "_id": "64711045c17ea387218a727d",
+        "code": "hair_styling_tools",
+        "name": "Hair Styling Tools"
+      },
+      {
+        "_id": "64711045c17ea387218a727e",
+        "code": "nail_care_tools",
+        "name": "Nail Care Tools"
+      },
+      {
+        "_id": "64711045c17ea387218a727f",
+        "code": "facial_cleansing_tools",
+        "name": "Facial Cleansing Tools"
+      },
+      {
+        "_id": "64711045c17ea387218a7281",
+        "code": "bath_and_body_tools",
+        "name": "Bath and Body Tools"
+      },
+      {
+        "_id": "64711045c17ea387218a7280",
+        "code": "eyelash_curlers",
+        "name": "Eyelash Curlers"
+      },
+      {
+        "_id": "64711045c17ea387218a7282",
+        "code": "hair_removal_tools",
+        "name": "Hair Removal Tools"
+      },
+      {
+        "_id": "64711045c17ea387218a7283",
+        "code": "beauty_mirrors",
+        "name": "Beauty Mirrors"
+      },
+      {
+        "_id": "64711045c17ea387218a7284",
+        "code": "makeup_bags_and_cases",
+        "name": "Makeup Bags and Cases"
+      },
+      {
+        "_id": "64711045c17ea387218a7285",
+        "code": "cosmetic_organizers",
+        "name": "Cosmetic Organizers"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71bd",
+    "code": "fitness_and_wellness",
+    "name": "Fitness and Wellness",
+    "description": "Yoga, Fitness Equipment, Supplements, Wellness, Meditation, Massage, Vitamins, Protein, Exercise Bikes, Running Shoes, Health Monitors",
+    "tags": [
+      { "_id": "64711045c17ea387218a71e6", "code": "yoga", "name": "Yoga" },
+      {
+        "_id": "64711045c17ea387218a71e7",
+        "code": "fitness_equipment",
+        "name": "Fitness Equipment"
+      },
+      {
+        "_id": "64711045c17ea387218a71e8",
+        "code": "supplements",
+        "name": "Supplements"
+      },
+      {
+        "_id": "64711045c17ea387218a71e9",
+        "code": "wellness",
+        "name": "Wellness"
+      },
+      {
+        "_id": "64711045c17ea387218a71ea",
+        "code": "meditation",
+        "name": "Meditation"
+      },
+      {
+        "_id": "64711045c17ea387218a71eb",
+        "code": "massage",
+        "name": "Massage"
+      },
+      {
+        "_id": "64711045c17ea387218a71ed",
+        "code": "protein",
+        "name": "Protein"
+      },
+      {
+        "_id": "64711045c17ea387218a71ee",
+        "code": "exercise_bikes",
+        "name": "Exercise Bikes"
+      },
+      {
+        "_id": "64711045c17ea387218a71ef",
+        "code": "running_shoes",
+        "name": "Running Shoes"
+      },
+      {
+        "_id": "64711045c17ea387218a71f0",
+        "code": "health_monitors",
+        "name": "Health Monitors"
+      },
+      {
+        "_id": "64711045c17ea387218a71ec",
+        "code": "vitamins",
+        "name": "Vitamins"
+      },
+      {
+        "_id": "648b3545a1a1097c8af723ad",
+        "code": "hourglass",
+        "name": "Hourglass"
+      },
+      { "_id": "648b39ffa1a1097c8af72548", "code": "bko", "name": "bko" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71be",
+    "code": "home_and_kitchen_appliances",
+    "name": "Home and Kitchen Appliances",
+    "description": "Kitchenware, Appliances, Furniture, Home Decor, Lighting, Bedding, Storage, Cleaning Supplies, Outdoor Living, Garden Tools",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a71f3",
+        "code": "furniture",
+        "name": "Furniture"
+      },
+      {
+        "_id": "64711045c17ea387218a71f2",
+        "code": "appliances",
+        "name": "Appliances"
+      },
+      {
+        "_id": "64711045c17ea387218a71f4",
+        "code": "home_decor",
+        "name": "Home Decor"
+      },
+      {
+        "_id": "64711045c17ea387218a71f6",
+        "code": "bedding",
+        "name": "Bedding"
+      },
+      {
+        "_id": "64711045c17ea387218a71f7",
+        "code": "storage",
+        "name": "Storage"
+      },
+      {
+        "_id": "64711045c17ea387218a71f8",
+        "code": "cleaning_supplies",
+        "name": "Cleaning Supplies"
+      },
+      {
+        "_id": "64711045c17ea387218a71fa",
+        "code": "garden_tools",
+        "name": "Garden Tools"
+      },
+      {
+        "_id": "64711045c17ea387218a71f1",
+        "code": "kitchenware",
+        "name": "Kitchenware"
+      },
+      {
+        "_id": "64711045c17ea387218a71f9",
+        "code": "outdoor_living",
+        "name": "Outdoor Living"
+      },
+      {
+        "_id": "64711045c17ea387218a71f5",
+        "code": "lighting",
+        "name": "Lighting"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "64711045c17ea387218a71c0",
+    "code": "beauty",
+    "name": "Beauty",
+    "description": "Makeup, Skincare, Haircare, Fragrances, Bath and Body, Personal Care, Beauty Tools, Men's Grooming, Wellness",
+    "tags": [
+      {
+        "_id": "64711045c17ea387218a7206",
+        "code": "skincare",
+        "name": "Skincare"
+      },
+      { "_id": "64711045c17ea387218a7205", "code": "makeup", "name": "Makeup" },
+      {
+        "_id": "64711045c17ea387218a7207",
+        "code": "haircare",
+        "name": "Haircare"
+      },
+      {
+        "_id": "64711045c17ea387218a7208",
+        "code": "fragrances",
+        "name": "Fragrances"
+      },
+      {
+        "_id": "64711045c17ea387218a7209",
+        "code": "bath_and_body",
+        "name": "Bath and Body"
+      },
+      {
+        "_id": "64711045c17ea387218a720a",
+        "code": "personal_care",
+        "name": "Personal Care"
+      },
+      {
+        "_id": "64711045c17ea387218a720b",
+        "code": "beauty_tools",
+        "name": "Beauty Tools"
+      },
+      {
+        "_id": "64711045c17ea387218a720d",
+        "code": "wellness",
+        "name": "Wellness"
+      },
+      {
+        "_id": "64711045c17ea387218a720c",
+        "code": "men_s_grooming",
+        "name": "Men's Grooming"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "6496d59f8fbbb4f557f1d868",
+    "code": "gardenings",
+    "name": "Gardenings",
+    "description": "Flowers, Gardening tools, Bees, Horticulture",
+    "tags": [],
+    "__v": 0
+  }
+]
