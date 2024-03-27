@@ -220,31 +220,32 @@ export const StyledLink = styled(StyledDiv)<{
     }
   }
 `;
-export const StyledContainer = styled.section`
+export const StyledHeroSection = styled.section`
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+    margin: auto;
 
-  @media (min-width: 576px) {
+
+  /* @media (min-width: 576px) {
     max-width: 540px;
-  }
-  @media (min-width: 768px) {
+  } */
+  /* @media (min-width: 768px) {
     max-width: 720px;
-  }
-  @media (min-width: 868px) {
+  } */
+  /* @media (min-width: 868px) {
     .main-container {
       max-width: 840px;
     }
-  }
-  @media (min-width: 991px) {
+  } */
+  /* @media (min-width: 991px) {
     max-width: 960px;
-  }
-  @media (min-width: 1200px) {
-    /* max-width: 1065px; */
+  } */
+  /* @media (min-width: 1200px) {
     max-width: 1303px;
-  }
+  } */
 
   /* @media (min-width: 1200px) {
   border: 1px solid yellow;
@@ -252,9 +253,65 @@ export const StyledContainer = styled.section`
     margin: auto;
   } */
 
-  @media (min-width: 1600px) {
-    max-width: 1250px;
+  @media (min-width: 1200px) {
+  /* border: 1px solid yellow; */
+  /* max-width: 1203px; */
+    max-width: 1203px;
+    /* margin: auto; */
+    /* margin: 0 10px 0 90px; */
   }
+  /* @media (max-width: 1199px) {
+  border: 1px solid red;
+  } */
+
+  /* @media (min-width: 1600px) {
+    max-width: 1250px;
+  } */
+`;
+
+export const StyledContainer = styled.section`
+  /* width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; */
+
+  // @media (min-width: 576px) {
+  //   max-width: 540px;
+  // }
+  /* @media (min-width: 768px) {
+    max-width: 720px;
+  } */
+  /* @media (min-width: 868px) {
+    .main-container {
+      max-width: 840px;
+    }
+  } */
+   @media (min-width: 991px) {
+  border: 1px solid red;
+    max-width: 960px;
+  } 
+  // @media (min-width: 1200px) {
+  //   max-width: 1303px;
+  // }
+
+  /* @media (min-width: 1200px) {
+  border: 1px solid yellow;
+    max-width: 1303px;
+    margin: auto;
+  } */
+
+  @media (min-width: 1200px) {
+  border: 1px solid yellow;
+  /* max-width: 1203px; */
+    max-width: 1203px;
+    /* margin: auto; */
+    margin: 0 10px 0 90px;
+  }
+
+  /* @media (min-width: 1600px) {
+    max-width: 1250px;
+  } */
 `;
 export const StyledContainerFluid = styled(StyledContainer)`
   @media (min-width: 768px) {

@@ -1,4 +1,4 @@
-import { StyledButton, StyledContainer, StyledDiv, StyledFlex, StyledFlexItem } from '@/__style/ui-block.style'
+import { StyledButton, StyledFlex, StyledFlexItem, StyledHeroSection } from '@/__style/ui-block.style'
 import Image from 'next/image'
 import React from 'react'
 import { styled } from 'styled-components'
@@ -9,176 +9,141 @@ import { HeadingText, ParagraphText } from '@/__style/global.style'
 const Hero = () => {
   return (
     <StyledMainContainer>
-      <StyledFlex
+      <StyledWrapper
       fDirection='row'
-      // justify='space-evenly'
       justify='center'
       align='center'
       >
-        <StyledLeft>
-
-        <HeadingText
-    //  fsize='70px'
-    fsize='70px'
+        <StyledLeft
+        grow
+        mWidth='731px'
+        >
+        <StyledHeading
+    fsize='61px'
      fw='800'
      lh='88.2px'
      align='left'
      color='#1B442A'
-    //  spacing="0.02em"
 
      >
- {/* <StyledSpan>Payment </StyledSpan>   */}
-
      The future of <StyledSpan>Payment </StyledSpan> Processing and Settlement 
-     </HeadingText>
-     {/* <HeadingText
-    //  fsize='70px'
-    fsize='60px'
-     fw='800'
-     lh='88.2px'
-     align='left'
-     color='#1B442A'
-     >
-     The future of  
- <StyledSpan>Payment </StyledSpan>  Processing
-and Settlement 
-     </HeadingText> */}
+     </StyledHeading>
 
-     <ParagraphText
+     <StyledParagraph
      fw='400'
-     fsize='20px'
+     fsize='17px'
      lh='25.2px'
-    //  alignItems='left'
      textAlign='left'
-    //  pr='30px'
+    color='#202020'
      >
      Revolutionizing financial transactions with a comprehensive suite of services 
 ensuring seamless and secure payment solutions for diverse needs
-     </ParagraphText>
+     </StyledParagraph>
 
      <StyledGetStartedCont2>
 <StyledGetStartedBtn>
   Get Started
 </StyledGetStartedBtn>
-<Image src={RightArrow} width={7} height={14} alt='RightArrow' />
+<Image 
+src={RightArrow} 
+width={7} 
+height={14} 
+alt='RightArrow'
+blurDataURL="/assets/icons/RightArrow.png"
+ />
 </StyledGetStartedCont2>
-
-{/* <ParagraphText
-     fw='400'
-     fsize='20px'
-     lh='25.2px'
-    //  alignItems='left'
-     textAlign='left'
-    //  pr='30px'
-     >
-     Revolutionizing financial transactions with a comprehensive suite of services 
-ensuring seamless and secure payment solutions for diverse needs
-     </ParagraphText> */}
-
-     {/* <StyledGetStartedCont2>
-<StyledGetStartedBtn>
-  Get Started
-</StyledGetStartedBtn>
-<Image src={RightArrow} width={7} height={14} alt='RightArrow' />
-</StyledGetStartedCont2> */}
-
-     {/* <ParagraphText
-     fw='400'
-     fsize='20px'
-     lh='25.2px'
-    //  alignItems='left'
-     textAlign='left'
-    //  pr='30px'
-     >
-     Revolutionizing financial transactions with a comprehensive suite of services 
-ensuring seamless and secure payment solutions for diverse needs
-     </ParagraphText> */}
         </StyledLeft>
-        <StyledRight>
-      <Image src={HeroImage} width={588} height={565.96} alt='HeroImage'  />
-      {/* <Image src={HeroImage} width={288} height={265.96} alt='HeroImage'  /> */}
+        <StyledRight
+        grow
+        >
+      <Image 
+      src={HeroImage} 
+      width={588} 
+      height={565.96} 
+      alt='HeroImage'
+      blurDataURL="/assets/images/HeroImage.webp"
+        />
         </StyledRight>
-      </StyledFlex>
+      </StyledWrapper>
     </StyledMainContainer>
   )
 }
 
 export default Hero
-// const StyledMainContainer = styled(StyledContainer)`
-// /* border: 1px solid red; */
-// max-height: 724.83px;
-// `;
-const StyledMainContainer = styled.div`
-/* border: 1px solid red; */
-max-height: 724.83px;
-/* padding: 10px 30px; */
-/* margin: 0px 40px; */
-/* @media only screen and (max-width:1366px){
-  border: 1px solid yellow;
-  max-width: 800px;
-} */
 
- @media (min-width: 1200px) {
-  /* border: 1px solid yellow; */
-    max-width: 1303px;
-    margin: auto;
-  }
+const StyledMainContainer = styled(StyledHeroSection)`
+max-height: 724.83px;
 `;
+
+const StyledWrapper = styled(StyledFlex)`
+@media only screen and (max-width:991px){
+  flex-wrap: wrap;
+}
+`;
+
 const StyledSpan = styled.span`
 color: #F4B23E;
 `;
+
 const StyledLeft = styled(StyledFlexItem)`
-/* border: 1px solid red; */
-/* align-self: flex-start; */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-/* flex: 1; */
-/* row-gap: 26px; */
-/* gap: 26px; */
+@media only screen and (max-width:768px){
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-/* width: 731px; */
-max-width: 731px;
-/* height: 449.22px; */
-/* top: 146.95px;
-left: 194px; */
-/* gap: 0px; */
-/* border-radius: 100px 0px 0px 0px; */
-/* opacity: 0px; */
-
+@media only screen and (min-width:1367px){
+ min-width: 750px;
+}
 `;
+
+const StyledHeading = styled(HeadingText)`
+@media only screen and (min-width:1367px){
+font-size: 70px;
+}
+@media only screen and (max-width:991px){
+  text-align: center;
+}
+@media only screen and (max-width:768px){
+font-size: 34px;
+line-height: 42.84px;
+}
+`;
+
+const StyledParagraph = styled(ParagraphText)`
+@media only screen and (min-width:1367px){
+    font-size: 20px;
+}
+@media only screen and (max-width:991px){
+  text-align: center;
+}
+@media only screen and (max-width:768px){
+  text-align: center;
+font-size: 16px;
+line-height: 24px;
+}
+`;
+
 const StyledRight = styled(StyledFlexItem)`
-/* flex: 1; */
-/* border: 1px solid green; */
-/* max-width: 588px; */
 min-width: 588px;
-/* width: 588px; */
-width: auto;
 height: 565.96;
 
 img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+@media only screen and (max-width:991px){
+  max-width: 731px;
+}
+@media only screen and (max-width: 768px){
+  display: none;
 }
 `;
-const StyledGetStartedCont = styled(StyledDiv)`
-width: 189px;
-height: 60px;
-padding: 16px 30px;
-column-gap: 11px;
-border-radius: 100px;
-opacity: 0px;
-background-color: #1B442A;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-`;
 
-// const StyledGetStartedCont2 = styled(ParagraphText)`
 const StyledGetStartedCont2 = styled.button`
 width: 189px;
 height: 60px;
@@ -186,21 +151,25 @@ padding: 16px 30px;
 column-gap: 11px;
 border-radius: 100px;
 opacity: 0px;
-/* background-color: #231b44; */
 background-color: #1B442A;
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-
 border: none;
-
 margin-top: 49.65px;
+@media only screen and (max-width:991px){
+  width: 100%;
+}
+@media only screen and (max-width:768px){
+width: 189px;
+height: 56px;
+padding: 14px 30px;
+}
 `;
+
 const StyledGetStartedBtn = styled(StyledButton)`
-/* width: 90px; */
 height: 20px;
-/* gap: 0px; */
 opacity: 0px;
 color: #FFFFFF;
 font-size: 16px;
