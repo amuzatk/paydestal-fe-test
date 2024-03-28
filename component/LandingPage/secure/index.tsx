@@ -168,19 +168,6 @@ img{
 
 `;
 
-// const StyledHeading = styled(HeadingText)`
-// @media only screen and (min-width:1367px){
-// font-size: 70px;
-// }
-// @media only screen and (max-width:991px){
-//   text-align: center;
-// }
-// @media only screen and (max-width:768px){
-// font-size: 34px;
-// line-height: 42.84px;
-// }
-// `;
-
 const StyledRight = styled(StyledFlexItem)`
 
 /* background-color: lightblue; */
@@ -208,7 +195,7 @@ max-height: 665.25px;
   /* border: 1px solid red; */
   border-top-left-radius: 0;
 border-bottom-left-radius: 0;
-padding: 80px 60px 0px 24px;
+padding: 80px 60px 80px 24px;
 /* padding: 0; */
   /* display: none; */
   /* text-align: center;

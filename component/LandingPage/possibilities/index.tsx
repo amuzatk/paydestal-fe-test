@@ -2,10 +2,10 @@ import { StyledButton, StyledFlex, StyledFlexItem, StyledHeroSection } from '@/_
 import Image from 'next/image'
 import React from 'react'
 import { styled } from 'styled-components'
-import HeroImage from '../../../public/assets/images/PossibilityImage.webp'
-import RightArrow from '../../../public/assets/icons/RightArrow.png'
-import RightArrow2 from '../../../public/assets/images/PossibilityBackground.webp'
+import PossibityImage from '../../../public/assets/images/PossibilityImage.webp'
+import PossibilityIcon from '../../../public/assets/icons/check.png'
 import { HeadingText, ParagraphText } from '@/__style/global.style'
+import PossibilityItemized from './PossibilityItemized'
 
 const EndlessPossibilities = () => {
   return (
@@ -15,62 +15,70 @@ const EndlessPossibilities = () => {
       fDirection='row'
       justify='center'
       align='center'
+      p='0 20px'
+      // g='-20px'
       >
         <StyledLeft
-        grow
-        mWidth='731px'
+        // grow
+        // mWidth='637px'
         >
-        <StyledHeading
-    fsize='61px'
-     fw='800'
-     lh='88.2px'
-     align='left'
-     color='#1B442A'
 
-     >
-     The future of <StyledSpan>Payment </StyledSpan> Processing and Settlement 
-     </StyledHeading>
 
-     <StyledParagraph
-     fw='400'
-     fsize='17px'
-     lh='25.2px'
+<Image 
+src={PossibilityIcon} 
+// width={69} 
+// height={68.51} 
+width={55} 
+height={55.51}
+alt='PossibilityIcon'
+blurDataURL="/assets/icons/PossibilityIcon.png"
+ />
+
+<StyledParagraph
+     fw='600'
+     fsize='21px'
+     lh='26.46px'
      textAlign='left'
     color='#202020'
+    mb='-30px'
+    // mt='-0px'
      >
-     Revolutionizing financial transactions with a comprehensive suite of services 
-ensuring seamless and secure payment solutions for diverse needs
+     Why Choose Us
      </StyledParagraph>
 
-     <StyledGetStartedCont2>
-<StyledGetStartedBtn>
-  Get Started
-</StyledGetStartedBtn>
-<Image 
-src={RightArrow} 
-width={7} 
-height={14} 
-alt='RightArrow'
-blurDataURL="/assets/icons/RightArrow.png"
- />
-</StyledGetStartedCont2>
+        <StyledHeading
+    // fsize='44px'
+    //  fw='800'
+    //  lh='55.44px'
+    fsize='40px'
+     fw='800'
+     lh='50.44px'
+     align='left'
+     color='#1B442A'
+     mb='15px'
+
+     >
+
+
+      Discover <StyledSpan>Endless Possibilities  </StyledSpan> 
+with Paydestal
+     </StyledHeading>
+
+     <PossibilityItemized />
+
         </StyledLeft>
         <StyledRight
         grow
         >
-          {/* width: 708px;
-height: 702.98px;
-top: 1628.38px;
-left: 890px;
-gap: 0px;
-opacity: 0px; */}
 
       <Image 
-      src={HeroImage} 
-      width={708} 
-      height={702.98} 
-      alt='HeroImage'
-      blurDataURL="/assets/images/HeroImage.webp"
+      src={PossibityImage} 
+      // width={708} 
+      // height={702.98} 
+      width={808} 
+      height={802.98} 
+      alt='PossibityImage'
+      blurDataURL="/assets/images/PossibilityImage.webp"
         />
         </StyledRight>
       </StyledWrapper>
@@ -99,6 +107,10 @@ background-image: url('/assets/images/PossibilityBackground.webp');
     background-size: cover;
     background-position: center;
   } */
+
+  @media only screen and (max-width: 991px) {
+    background-image: none;
+  }
 `;
 const StyledMainContainer = styled(StyledHeroSection)`
 max-height: 724.83px;
@@ -121,26 +133,50 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-@media only screen and (max-width:768px){
-  justify-content: center;
-  align-items: center;
+/* min-width: 637px; */
+/* max-height: 626.94px; */
+max-height: 526.94px;
+/* padding: 20px 0; */
+
+/* @media only screen and (max-width:768px){
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
+@media only screen and (max-width:991px){
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* text-align: center; */
+  margin-top: 320px;
+  
 }
 
+@media only screen and (max-width:568px) and (min-width:332px) {
+  margin-top: 250px;
+}
 @media only screen and (min-width:1367px){
  min-width: 750px;
 }
 `;
 
 const StyledHeading = styled(HeadingText)`
-@media only screen and (min-width:1367px){
+/* @media only screen and (min-width:1367px){
 font-size: 70px;
-}
+} */
 @media only screen and (max-width:991px){
-  text-align: center;
+  text-align: left;
+
 }
 @media only screen and (max-width:768px){
-font-size: 34px;
-line-height: 42.84px;
+/* font-size: 34px; */
+/* line-height: 42.84px; */
+
+/* font-family: Plus Jakarta Sans; */
+font-size: 25px;
+/* font-weight: 800; */
+line-height: 31.5px;
+text-align: left;
+margin-bottom: 40px;
+/* margin-top: 10px; */
 }
 `;
 
@@ -152,9 +188,11 @@ const StyledParagraph = styled(ParagraphText)`
   text-align: center;
 }
 @media only screen and (max-width:768px){
-  text-align: center;
 font-size: 16px;
-line-height: 24px;
+font-size: 16px;
+line-height: 20.16px;
+text-align: left;
+margin-bottom: 0;
 }
 `;
 
@@ -175,36 +213,3 @@ img{
 }
 `;
 
-const StyledGetStartedCont2 = styled.button`
-width: 189px;
-height: 60px;
-padding: 16px 30px;
-column-gap: 11px;
-border-radius: 100px;
-opacity: 0px;
-background-color: #1B442A;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-border: none;
-margin-top: 49.65px;
-@media only screen and (max-width:991px){
-  width: 100%;
-}
-@media only screen and (max-width:768px){
-width: 189px;
-height: 56px;
-padding: 14px 30px;
-}
-`;
-
-const StyledGetStartedBtn = styled(StyledButton)`
-height: 20px;
-opacity: 0px;
-color: #FFFFFF;
-font-size: 16px;
-font-weight: 400;
-line-height: 20.16px;
-text-align: left;
-`;
