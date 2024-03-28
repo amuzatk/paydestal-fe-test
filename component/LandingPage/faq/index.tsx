@@ -22,6 +22,7 @@ import FaqCollapse from './FaqCollapse/FaqCollapse'
 
 const Faq = () => {
   return (
+    <>
     <StyledMainContainer>
       <StyledWrapper
       fDirection='column'
@@ -39,6 +40,8 @@ const Faq = () => {
      lh='26.47px'
      textAlign='center'
     color='#202020'
+    // bb='2px solid blue'
+    mb='-20px'
      >
      If you have a question, we have an answer
      </StyledParagraph>
@@ -48,6 +51,7 @@ const Faq = () => {
      lh='55.44px'
      align='center'
      color='#1B442A'
+    //  mt='-20px'
      >
     Frequently Asked Questions
      </StyledHeading>
@@ -58,6 +62,8 @@ const Faq = () => {
      lh='30.22px'
      textAlign='left'
     color='#202020'
+    mb='49px'
+
      >
      Get answers to all questions you have and boost your knowledge on our services.
      </StyledParagraph>
@@ -65,19 +71,21 @@ const Faq = () => {
         <StyledRight
         grow
         >
-      <FaqCollapse />
+      {/* <FaqCollapse /> */}
         </StyledRight>
       </StyledWrapper>
     </StyledMainContainer>
+      <FaqCollapse />
+</>
   )
 }
 
 export default Faq
 
 const StyledMainContainer = styled(StyledHeroSection)`
-border: 1px solid red;
+/* border: 1px solid red; */
 max-height: 895.61px;
-max-width: 1728px;
+/* max-width: 1728px; */
 `;
 
 const StyledWrapper = styled(StyledFlex)`
@@ -134,8 +142,8 @@ line-height: 24px;
 `;
 
 const StyledRight = styled(StyledFlexItem)`
-min-width: 588px;
-height: 565.96;
+/* min-width: 588px; */
+/* height: 565.96; */
 
 img{
   width: 100%;
