@@ -90,6 +90,7 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
+/* border: 1px solid red; */
 @media only screen and (max-width:768px){
   justify-content: center;
   align-items: center;
@@ -145,7 +146,7 @@ img{
 `;
 
 const StyledGetStartedCont2 = styled.button`
-max-width: 189px;
+width: 189px;
 max-height: 60px;
 padding: 16px 30px;
 column-gap: 11px;
@@ -159,6 +160,7 @@ align-items: center;
 border: none;
 margin-top: 49.65px;
 @media only screen and (max-width:991px){
+/* width: 189px; */
   width: 100%;
 }
 @media only screen and (max-width:768px){
