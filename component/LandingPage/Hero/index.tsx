@@ -145,8 +145,8 @@ img{
 `;
 
 const StyledGetStartedCont2 = styled.button`
-width: 189px;
-height: 60px;
+max-width: 189px;
+max-height: 60px;
 padding: 16px 30px;
 column-gap: 11px;
 border-radius: 100px;
@@ -169,7 +169,7 @@ padding: 14px 30px;
 `;
 
 const StyledGetStartedBtn = styled(StyledButton)`
-height: 20px;
+max-height: 20px;
 opacity: 0px;
 color: #FFFFFF;
 font-size: 16px;
