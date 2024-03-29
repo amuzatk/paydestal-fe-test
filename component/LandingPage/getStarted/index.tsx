@@ -18,6 +18,10 @@ import { styled } from 'styled-components'
 import PossibityImage from '../../../public/assets/images/PossibilityImage.webp'
 import WebFooterLogg from '../../../public/assets/images/logoFooterWeb.png'
 import PossibilityIcon from '../../../public/assets/icons/check.png'
+import LocationIcon from '../../../public/assets/icons/locationIcon.png'
+import EmailIcon from '../../../public/assets/icons/emailIcon.png'
+import TelephoneIcon from '../../../public/assets/icons/telephoneIcon.png'
+
 import PossibilityI from '../../../public/assets/svg/background2.svg'
 import InstagramIcon from '../../../public/assets/icons/InstagramSvg.svg'
 import TwitterIcon from '../../../public/assets/icons/TwitterSvg.svg'
@@ -167,6 +171,60 @@ color=' #1B442A'
 >
 Our Office
 
+</ParagraphText>
+
+<ParagraphText
+fw='400'
+fsize='30px'
+lh='25.2'
+textAlign='left'
+color=' #202020'
+style={{
+  display:"flex",
+  flexDirection:"row",
+  justifyContent:"center",
+  alignItems:"center",
+  columnGap:"15px"
+}}
+>
+<Image src={LocationIcon} width={40.29} height={40} alt='LocationIcon' />
+ 6 Alhaji Bakinson Street, Ikeja, Lagos Nigeria
+</ParagraphText>
+
+<ParagraphText
+fw='400'
+fsize='30px'
+lh='25.2'
+textAlign='left'
+color=' #202020'
+style={{
+  display:"flex",
+  flexDirection:"row",
+  justifyContent:"center",
+  alignItems:"center",
+  columnGap:"15px"
+}}
+>
+<Image src={EmailIcon} width={40.29} height={40} alt='EmailIcon' />
+ support@paydestal.com
+</ParagraphText>
+
+<ParagraphText
+fw='400'
+fsize='30px'
+lh='25.2'
+textAlign='left'
+color=' #202020'
+style={{
+  display:"flex",
+  flexDirection:"row",
+  justifyContent:"center",
+  alignItems:"center",
+  columnGap:"15px"
+}}
+>
+<Image src={TelephoneIcon} width={40.29} height={40} alt='TelephoneIcon' />
++234 80 9990 0045
 </ParagraphText>
         </StyledFourth>
 
