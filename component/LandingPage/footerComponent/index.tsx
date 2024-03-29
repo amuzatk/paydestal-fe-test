@@ -1,6 +1,6 @@
 // import React from 'react'
 
-// const GetStarted = () => {
+// const Footer = () => {
 //   return (
 //     <div>
 //       start
@@ -8,7 +8,7 @@
 //   )
 // }
 
-// export default GetStarted
+// export default Footer
 
 
 import { StyledButton, StyledDiv, StyledFlex, StyledFlexItem, StyledHeroSection } from '@/__style/ui-block.style'
@@ -16,18 +16,24 @@ import Image from 'next/image'
 import React from 'react'
 import { styled } from 'styled-components'
 import PossibityImage from '../../../public/assets/images/PossibilityImage.webp'
+import FooterWebLogo from '../../../public/assets/images/logoFooterWeb.png'
 import PossibilityIcon from '../../../public/assets/icons/check.png'
 import PossibilityI from '../../../public/assets/svg/background2.svg'
 import { HeadingText, ParagraphText } from '@/__style/global.style'
 import PossibilityItemized from '../possibilities/PossibilityItemized'
 // import PossibilityItemized from './PossibilityItemized'
 
-const GetStarted = () => {
+
+const Footer = () => {
   return (
     <StyledBackground>
     <StyledMainContainer>
 
-        <StyledFirst></StyledFirst>
+        <StyledFirst>
+          <Image src={FooterWebLogo} width={304.49} height={70} alt='FooterWebLogo'  />
+          <ParagraphText>
+          </ParagraphText>
+        </StyledFirst>
         <StyledSecond></StyledSecond>
         <StyledThird></StyledThird>
         <StyledFourth></StyledFourth>
@@ -39,7 +45,7 @@ const GetStarted = () => {
   )
 }
 
-export default GetStarted
+export default Footer
 
 const StyledBackground = styled.div`
 /* position: relative; */
@@ -120,6 +126,7 @@ border: 1px solid red;
 flex-basis: 30%;
 max-width: 444px;
 height: 195px;
+flex-grow: 1;
 
 
 `;
