@@ -16,21 +16,159 @@ import Image from 'next/image'
 import React from 'react'
 import { styled } from 'styled-components'
 import PossibityImage from '../../../public/assets/images/PossibilityImage.webp'
+import WebFooterLogg from '../../../public/assets/images/logoFooterWeb.png'
 import PossibilityIcon from '../../../public/assets/icons/check.png'
 import PossibilityI from '../../../public/assets/svg/background2.svg'
+import InstagramIcon from '../../../public/assets/icons/InstagramSvg.svg'
+import TwitterIcon from '../../../public/assets/icons/TwitterSvg.svg'
+import FacebookIcon from '../../../public/assets/icons/facebookSvg.svg'
+
+
 import { HeadingText, ParagraphText } from '@/__style/global.style'
 import PossibilityItemized from '../possibilities/PossibilityItemized'
 // import PossibilityItemized from './PossibilityItemized'
+
 
 const GetStarted = () => {
   return (
     <StyledBackground>
     <StyledMainContainer>
 
-        <StyledFirst></StyledFirst>
-        <StyledSecond></StyledSecond>
-        <StyledThird></StyledThird>
-        <StyledFourth></StyledFourth>
+        <StyledFirst>
+            <Image src={WebFooterLogg} width={304.49} height={70} alt='WebFooterLogg' />
+            <ParagraphText
+            fsize='16px'
+            fw='400'
+            lh='20.16'
+            textAlign='left'
+color=' #000000'
+            
+            >
+            A modern, technology payment processing and settlement built for you and your business.
+            </ParagraphText>
+            <StyledFlex
+            fDirection='row'
+            justify='center'
+            align='center'
+            cg='15px'
+            >
+                <a href="https://paydestal.com/instagram.com">
+
+            <Image src={InstagramIcon} width={40.29} height={40} alt='InstagramIcon' />
+                </a>
+                <a href="https://paydestal.com/twitter.com">
+
+            <Image src={TwitterIcon} width={40.29} height={40} alt='TwitterIcon' />
+                </a>
+                <a href="https://paydestal.com/facebook.com">
+
+            <Image src={FacebookIcon} width={40.29} height={40} alt='FacebookIcon' />
+                </a>
+
+
+            </StyledFlex>
+        </StyledFirst>
+        <StyledSecond>
+<ParagraphText
+fsize='24px'
+fw='600'
+lh='30.24px'
+textAlign='left'
+color=' #1B442A'
+
+>
+Company
+</ParagraphText>
+
+<ParagraphText
+fw='400'
+fsize='30px'
+lh='25.2'
+textAlign='left'
+color=' #202020'
+>
+About Us
+</ParagraphText>
+
+<ParagraphText
+fw='400'
+fsize='30px'
+lh='25.2'
+textAlign='left'
+color=' #202020'
+>
+Developer
+</ParagraphText>
+
+<ParagraphText
+fw='400'
+fsize='30px'
+lh='25.2'
+textAlign='left'
+color=' #202020'
+>
+FAQ
+</ParagraphText>
+
+        </StyledSecond>
+
+
+        <StyledThird>
+        <ParagraphText
+fsize='24px'
+fw='600'
+lh='30.24px'
+textAlign='left'
+color=' #1B442A'
+
+>
+Legal
+
+</ParagraphText>
+<ParagraphText
+fw='400'
+fsize='30px'
+lh='25.2'
+textAlign='left'
+color=' #202020'
+>
+Support Policy 
+</ParagraphText>
+
+<ParagraphText
+fw='400'
+fsize='30px'
+lh='25.2'
+textAlign='left'
+color=' #202020'
+>
+Privacy Policy 
+</ParagraphText>
+
+<ParagraphText
+fw='400'
+fsize='30px'
+lh='25.2'
+textAlign='left'
+color=' #202020'
+>
+Terms & Conditions 
+</ParagraphText>
+        </StyledThird>
+
+        <StyledFourth>
+        <ParagraphText
+fsize='24px'
+fw='600'
+lh='30.24px'
+textAlign='left'
+color=' #1B442A'
+
+>
+Our Office
+
+</ParagraphText>
+        </StyledFourth>
 
 
 
