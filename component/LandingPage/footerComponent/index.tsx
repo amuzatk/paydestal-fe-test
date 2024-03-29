@@ -1,16 +1,3 @@
-// import React from 'react'
-
-// const Footer = () => {
-//   return (
-//     <div>
-//       start
-//     </div>
-//   )
-// }
-
-// export default Footer
-
-
 import { StyledButton, StyledDiv, StyledFlex, StyledFlexItem, StyledHeroSection } from '@/__style/ui-block.style'
 import Image from 'next/image'
 import React from 'react'
@@ -18,7 +5,16 @@ import { styled } from 'styled-components'
 import PossibityImage from '../../../public/assets/images/PossibilityImage.webp'
 import FooterWebLogo from '../../../public/assets/images/logoFooterWeb.png'
 import PossibilityIcon from '../../../public/assets/icons/check.png'
+import LocationIcon from '../../../public/assets/icons/locationIcon.png'
+import EmailIcon from '../../../public/assets/icons/emailIcon.png'
+import TelephoneIcon from '../../../public/assets/icons/telephoneIcon.png'
+
 import PossibilityI from '../../../public/assets/svg/background2.svg'
+import InstagramIcon from '../../../public/assets/icons/InstagramSvg.svg'
+import TwitterIcon from '../../../public/assets/icons/TwitterSvg.svg'
+import FacebookIcon from '../../../public/assets/icons/facebookSvg.svg'
+
+
 import { HeadingText, ParagraphText } from '@/__style/global.style'
 import PossibilityItemized from '../possibilities/PossibilityItemized'
 // import PossibilityItemized from './PossibilityItemized'
