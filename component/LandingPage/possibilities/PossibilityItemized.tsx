@@ -19,7 +19,8 @@ import styled from 'styled-components';
           fDirection='row'
           justify='start'
           align='center'
-          g='20px'
+          // g='20px'
+          g='10px'
         //   m='40px 0'
           key={i}
         >
@@ -37,7 +38,8 @@ import styled from 'styled-components';
           <StyledList 
           color='#202020'
           // fsize='24px'
-          fsize='19px'
+          // fsize='19px'
+          fsize='16px'
         textAlign='left'
 
           >

@@ -4,6 +4,7 @@ import React from 'react'
 import { styled } from 'styled-components'
 import PossibityImage from '../../../public/assets/images/PossibilityImage.webp'
 import PossibilityIcon from '../../../public/assets/icons/check.png'
+import PossibilityI from '../../../public/assets/svg/background2.svg'
 import { HeadingText, ParagraphText } from '@/__style/global.style'
 import PossibilityItemized from './PossibilityItemized'
 
@@ -15,7 +16,7 @@ const EndlessPossibilities = () => {
       fDirection='row'
       justify='center'
       align='center'
-      p='0 20px'
+      p='0 50px'
       // g='-20px'
       >
         <StyledLeft
@@ -50,7 +51,7 @@ blurDataURL="/assets/icons/PossibilityIcon.png"
     // fsize='44px'
     //  fw='800'
     //  lh='55.44px'
-    fsize='40px'
+    // fsize='40px'
      fw='800'
      lh='50.44px'
      align='left'
@@ -73,10 +74,10 @@ with Paydestal
 
       <Image 
       src={PossibityImage} 
-      // width={708} 
-      // height={702.98} 
-      width={808} 
-      height={802.98} 
+      width={708} 
+      height={702.98} 
+      // width={808} 
+      // height={802.98} 
       alt='PossibityImage'
       blurDataURL="/assets/images/PossibilityImage.webp"
         />
@@ -91,9 +92,13 @@ export default EndlessPossibilities
 
 const StyledBackground = styled.div`
 position: relative;
-background-image: url('/assets/images/PossibilityBackground.webp');
+/* background-image: url('/assets/images/PossibilityBackground.webp'); */
+background-image: url('/assets/svg/background2.svg');
   /* background-size: cover; */
   background-size: contain;
+  // Image: solutions-business-bgg;
+/* background-image: url("solutions-business-bgg.png"); */
+
   /* background-position: center; */
 
   /* &:before {
@@ -113,6 +118,10 @@ background-image: url('/assets/images/PossibilityBackground.webp');
   }
 `;
 const StyledMainContainer = styled(StyledHeroSection)`
+position: relative;
+bottom: 130px;
+left: 70px;
+/* top: 0px; */
 max-height: 724.83px;
 
 
@@ -159,6 +168,8 @@ max-height: 526.94px;
 `;
 
 const StyledHeading = styled(HeadingText)`
+/* font-size: 40px; */
+font-size: 30px;
 /* @media only screen and (min-width:1367px){
 font-size: 70px;
 } */
